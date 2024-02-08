@@ -1,0 +1,123 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;      
+}
+
+header {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+    padding-bottom: 22px;
+    margin: 1rem;
+}
+
+.hero {
+    margin: 0 1rem;
+}
+.button1 {
+    width: 140px;
+    height: 48px;
+    background-color: #13183F;
+    color: #fff;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 167px;
+    height: 56px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #f02aa6, #ff6f48);
+    border-radius: 31.5px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.button3 {
+    width: 140px;
+    height: 48px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #4851ff, #f02aa6);
+    border-radius: 28px;    
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #13183F;
+    padding-bottom: 26px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #13183F;
+    margin: 0 2rem 1rem 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: #83869A;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #fff, #F0F1FF);    
+}
+
+.cta {
+    background-image: linear-gradient(to bottom, #f02aa6, #ff6f48);
+    height: 7.5rem;
+    color: #fff;
+    padding: 1.5rem 1.75rem;
+}
+
+main div {
+   border-radius: 10px;
+   background-color: #fff; 
+   height: 17.5rem;
+   width: 21.25rem;
+   margin-bottom: 3rem;
+}
+
+main div p {
+    margin: 0 2rem;
+}
+
+.icon {
+    position: relative;
+    top: -28px;
+    right: -28px;
+}
+
+.heroimg {
+    margin-top: 46px;
+}
+
+a {
+    color: #f74780;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+
+footer {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;    
+    background-color: #13183F;
+    padding: 0 1rem;
+}
+
+
